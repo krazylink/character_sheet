@@ -5,6 +5,7 @@ div.At-Will {
   border: solid;
   border-color: #006402;
   padding: 0px 2px 2px 2px;
+  display: inline-table;
 }
 
 div.At-Will_Title {
@@ -22,6 +23,7 @@ div.Daily {
   border: solid;
   border-color: #808080;
   padding: 0px 2px 2px 2px;
+  display: inline-table;
 }
 
 div.Daily_Title {
@@ -39,6 +41,7 @@ div.Encounter {
   border: solid;
   border-color: #a50002;
   padding: 0px 2px 2px 2px;
+  display: inline-table;
 }
 
 div.Encounter_Title {
@@ -56,6 +59,7 @@ div.Item {
   border: solid;
   border-color: #ff8e02;
   padding: 0px 2px 2px 2px;
+  display: inline-table;
 }
 
 div.Item_Title {
@@ -69,13 +73,13 @@ div.Item_Title {
 div.Attack_type {
   text-align: left;
   vertical-align: top;
-  display: inline-block;
+  display: inline-table;
   width: 50%;
 }
 
 div.Target {
   text-align: left;
-  display: inline-block;
+  display: inline-table;
   width: 50%;
 }
 
@@ -85,7 +89,7 @@ div.Flavor_text {
 }
 
 div.Keywords {
-  display: inline-block;
+  display: inline-table;
 }
 
 div.Effect {
