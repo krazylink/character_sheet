@@ -9,11 +9,22 @@ div.At-Will {
 }
 
 div.At-Will_Title {
-  text-align: center;
+  text-align: left;
   background-color: #006402;
   color: white;
   width: 100%;
-  padding-left: 2px;
+}
+
+div.Defenses {
+  width: 40%;
+}
+
+div#defense.Defenses {
+  width: 40px; 
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 25px;
+  display: inline-block;
 }
 
 div.Daily {
@@ -27,11 +38,11 @@ div.Daily {
 }
 
 div.Daily_Title {
-  text-align: center;
+  text-align: left;
   background-color: #808080;
   color: white;
   width: 100%;
-  padding-left: 2px;
+  padding-left: 0px;
 }
 
 div.Encounter {
@@ -45,11 +56,11 @@ div.Encounter {
 }
 
 div.Encounter_Title {
-  text-align: center;
+  text-align: left;
   background-color: #a50002;
   color: white;
   width: 100%;
-  padding-left: 2px;
+  padding-left: 0px;
   }
 
 div.Item {
@@ -63,11 +74,11 @@ div.Item {
 }
 
 div.Item_Title {
-  text-align: center;
+  text-align: left;
   background-color: #ff8e02;
   color: white;
   width: 100%;
-  padding-left: 2px;
+  padding-left: 0px;
 }
 
 div.Attack_type {
